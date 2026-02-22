@@ -3,7 +3,7 @@ services:
     name: eisenhower-matrix
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
+    startCommand: python main_matrix_webapp.py
     envVars:
       - key: PORT
         value: 8080
